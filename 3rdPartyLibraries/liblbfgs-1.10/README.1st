@@ -1,0 +1,4 @@
+This is a version of the liblbfsgs-1.10 that was stripped down to just the c file and h file along with the appropriate license information.
+
+A few changes were made to fix some gcc warnings and to deal with some of the white space issues, but no attempt was made to fix style differences.
+

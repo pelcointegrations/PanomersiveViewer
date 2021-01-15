@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="src\ErrorHandling.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RtpFrameSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SplitterLayout.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\StreamLayoutMetadata.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TcpFetcher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\VideoWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wgl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WinMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PanomersiveViewer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UserOptions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PerformanceStats.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gsoap\soapC.cpp">
+      <Filter>Source Files\gsoap</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gsoap\stdsoap2.cpp">
+      <Filter>Source Files\gsoap</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gsoap\soapDeviceBindingProxy.cpp">
+      <Filter>Source Files\gsoap</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gsoap\soapMediaBindingProxy.cpp">
+      <Filter>Source Files\gsoap</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gsoap\soapPTZBindingProxy.cpp">
+      <Filter>Source Files\gsoap</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gsoap\duration.c">
+      <Filter>Source Files\gsoap</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BaseFrameSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\OpenH264FrameSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mycamera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SituationControl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ObjectFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MosaicToPanTilt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CameraInfos.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Objects.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\numeric_calibrate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(ProjectDir)3rdPartyLibraries\liblbfgs-1.10\lib\lbfgs.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource\Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="src\ErrorHandling.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MultiThreadFifo.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\RtpFrameSource.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SplitterLayout.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\StreamLayoutMetadata.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TcpFetcher.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\VideoWindow.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\wgl.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Window.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PanomersiveViewer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\UserOptions.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PerformanceStats.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gsoap\soapH.h">
+      <Filter>Header Files\gsoap</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gsoap\soapStub.h">
+      <Filter>Header Files\gsoap</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gsoap\stdsoap2.h">
+      <Filter>Header Files\gsoap</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gsoap\soapDeviceBindingProxy.h">
+      <Filter>Header Files\gsoap</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gsoap\soapMediaBindingProxy.h">
+      <Filter>Header Files\gsoap</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gsoap\soapPTZBindingProxy.h">
+      <Filter>Header Files\gsoap</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gsoap\device.h">
+      <Filter>Header Files\gsoap</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gsoap\media.h">
+      <Filter>Header Files\gsoap</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gsoap\ptz.h">
+      <Filter>Header Files\gsoap</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gsoap\duration.h">
+      <Filter>Header Files\gsoap</Filter>
+    </ClInclude>
+    <ClInclude Include="src\OpenH264FrameSource.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BaseFrameSource.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mycamera.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SituationControl.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ObjectFilter.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MosaicToPanTilt.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CameraInfos.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Objects.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\numeric_calibrate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(ProjectDir)3rdPartyLibraries\liblbfgs-1.10\include\lbfgs.h" />
+    <ClInclude Include="$(ProjectDir)3rdPartyLibraries\liblbfgs-1.10\lib\arithmetic_ansi.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resource\PanomersiveViewer.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resource\pelco_logo.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resource\small.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{b63f4d18-2111-4d47-9ba4-fde84b11a5ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{036a7fd5-f299-4dcf-9d64-7c46e6773bea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{e7b724a0-9907-4bae-981f-c8cee5d4bb16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gsoap">
+      <UniqueIdentifier>{0a4fd66f-bbc5-4574-9cf9-267e72df7b30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gsoap">
+      <UniqueIdentifier>{eada7ce3-7d0d-4994-9b38-83cc8c885040}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\lbfgs">
+      <UniqueIdentifier>{eb57ad1a-7d92-46f4-9332-c8dc2e1fe309}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\lbfgs">
+      <UniqueIdentifier>{16603ed5-05fa-483b-8554-ea059359b332}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource\PanomersiveViewer.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\gsoap\OnvifBinding.nsmap">
+      <Filter>Source Files\gsoap</Filter>
+    </None>
+    <None Include="resource\resource." />
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>

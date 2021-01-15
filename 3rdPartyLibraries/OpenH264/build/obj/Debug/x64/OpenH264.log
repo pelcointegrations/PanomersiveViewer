@@ -1,0 +1,44 @@
+﻿  Performing Custom Build Tools
+  stdafx.cpp
+  common_tables.cpp
+  copy_mb.cpp
+  cpu.cpp
+  crt_util_safe_x.cpp
+  deblocking_common.cpp
+  expand_pic.cpp
+  intra_pred_common.cpp
+  mc.cpp
+  memory_align.cpp
+  sad_common.cpp
+  utils.cpp
+  welsCodecTrace.cpp
+  WelsThreadLib.cpp
+  au_parser.cpp
+  bit_stream.cpp
+  cabac_decoder.cpp
+  deblocking.cpp
+  decoder.cpp
+  decoder_core.cpp
+  decoder_data_tables.cpp
+  Generating Code...
+  Compiling...
+  decode_mb_aux.cpp
+  decode_slice.cpp
+  error_concealment.cpp
+  fmo.cpp
+  get_intra_predictor.cpp
+  manage_dec_ref.cpp
+  memmgr_nal_unit.cpp
+  mv_pred.cpp
+  parse_mb_syn_cabac.cpp
+  parse_mb_syn_cavlc.cpp
+  pic_queue.cpp
+  rec_mb.cpp
+  welsDecoderExt.cpp
+  AdaptiveQuantization.cpp
+  OpenH264.cpp
+  Generating Code...
+  dllmain.cpp
+common_tables.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+     Creating library build\lib\Debug\x64\OpenH264.lib and object build\lib\Debug\x64\OpenH264.exp
+  OpenH264.vcxproj -> C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\OpenH264\build\lib\Debug\x64\OpenH264.dll

@@ -1,0 +1,2 @@
+^C:\GIT\IMMERSIVESDK\IMMERSIVEEXPERIENCETOOLKIT\3RDPARTYLIBRARIES\OPENH264\CODEC\COMMON\X86\ASM_INC.ASM
+nasm  -o  "build\obj\Debug\x64\\asm_inc.obj" "C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\OpenH264\codec\common\x86\asm_inc.asm"

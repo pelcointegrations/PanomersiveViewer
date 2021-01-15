@@ -1,0 +1,355 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F48BDE44-C9B6-40E3-B379-A95D83E6484E}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>PanomersiveViewer</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <TargetName>Pelco Camera Viewer</TargetName>
+    <OutDir>Bin\$(PlatformTarget)\$(Configuration)\</OutDir>
+    <IntDir>Intermediates\$(PlatformTarget)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <TargetName>Pelco Camera Viewer</TargetName>
+    <OutDir>Bin\$(PlatformTarget)\$(Configuration)\</OutDir>
+    <IntDir>Intermediates\$(PlatformTarget)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <TargetName>Pelco Camera Viewer</TargetName>
+    <OutDir>Bin\$(PlatformTarget)\$(Configuration)\</OutDir>
+    <IntDir>Intermediates\$(PlatformTarget)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <TargetName>Pelco Camera Viewer</TargetName>
+    <OutDir>Bin\$(PlatformTarget)\$(Configuration)\</OutDir>
+    <IntDir>Intermediates\$(PlatformTarget)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(ProjectDir)\src\gsoap;$(ProjectDir)resource;$(ProjectDir)\src;$(ProjectDir)3rdPartyLibraries\Live555\BasicUsageEnvironment\include;$(ProjectDir)3rdPartyLibraries\Live555\groupsock\include;$(ProjectDir)3rdPartyLibraries\Live555\UsageEnvironment\include;$(ProjectDir)3rdPartyLibraries\Live555\liveMedia\include;$(ProjectDir)3rdPartyLibraries\OpenH264\codec\api\svc;$(ProjectDir)3rdPartyLibraries\glew-1.11.0\include;$(ProjectDir)3rdPartyLibraries\vlc-2.1.5\sdk\include;C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\liblbfgs-1.10\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <AdditionalOptions>/bigobj /Zm200 %(AdditionalOptions)</AdditionalOptions>
+      <CompileAs>CompileAsCpp</CompileAs>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>glew32.lib;opengl32.lib;gdiplus.lib;libvlc.lib;Live555.lib;OpenH264.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(ProjectDir)3rdPartyLibraries\Live555\build\lib\Release\$(PlatformName)\;$(ProjectDir)3rdPartyLibraries\OpenH264\build\lib\Release\$(PlatformName)\;$(ProjectDir)3rdPartyLibraries\glew-1.11.0\lib\Release\Win32\;$(ProjectDir)3rdPartyLibraries\vlc-2.1.5\sdk\lib\Win32\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy "resource\testImages" "$(TargetDir)\testImages\" /y /s
+xcopy "$(ProjectDir)3rdPartyLibraries\glew-1.11.0\bin\Release\Win32\glew32.dll" "$(TargetDir)" /y /s
+xcopy "$(ProjectDir)3rdPartyLibraries\vlc-2.1.5\Release\$(Platform)\*.dll" "$(TargetDir)" /y /s
+xcopy "$(ProjectDir)3rdPartyLibraries\OpenH264\build\lib\Release\$(Platform)\*.dll" "$(TargetDir)" /y /s
+xcopy "$(ProjectDir)3rdPartyLibraries\Live555\build\lib\Release\$(Platform)\*.dll" "$(TargetDir)" /y /s
+xcopy "$(ProjectDir)3rdPartyLibraries\vlc-2.1.5\Release\$(Platform)\plugins"  "$(TargetDir)\plugins\" /y /s</Command>
+    </PostBuildEvent>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(ProjectDir)\src\gsoap;$(ProjectDir)resource;$(ProjectDir)\src;$(ProjectDir)3rdPartyLibraries\Live555\BasicUsageEnvironment\include;$(ProjectDir)3rdPartyLibraries\Live555\groupsock\include;$(ProjectDir)3rdPartyLibraries\Live555\UsageEnvironment\include;$(ProjectDir)3rdPartyLibraries\Live555\liveMedia\include;$(ProjectDir)3rdPartyLibraries\OpenH264\codec\api\svc;$(ProjectDir)3rdPartyLibraries\glew-1.11.0\include;$(ProjectDir)3rdPartyLibraries\vlc-2.1.5\sdk\include;$(ProjectDir)3rdPartyLibraries\liblbfgs-1.10\include;$(ProjectDir)3rdPartyLibraries\liblbfgs-1.10\lib;</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <AdditionalOptions>/bigobj /Zm200 %(AdditionalOptions)</AdditionalOptions>
+      <CompileAs>CompileAsCpp</CompileAs>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>glew32.lib;opengl32.lib;gdiplus.lib;libvlc.lib;Live555.lib;OpenH264.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(ProjectDir)3rdPartyLibraries\Live555\build\lib\Release\$(PlatformName)\;$(ProjectDir)3rdPartyLibraries\OpenH264\build\lib\Release\$(PlatformName)\;$(ProjectDir)3rdPartyLibraries\glew-1.11.0\lib\release\x64\;$(ProjectDir)3rdPartyLibraries\vlc-2.1.5\sdk\lib\x64\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy "resource\testImages" "$(TargetDir)\testImages\" /y /s
+xcopy "$(ProjectDir)3rdPartyLibraries\glew-1.11.0\bin\Release\$(Platform)\glew32.dll" "$(TargetDir)" /y /s
+xcopy "$(ProjectDir)3rdPartyLibraries\vlc-2.1.5\Release\$(Platform)\*.dll" "$(TargetDir)" /y /s
+xcopy "$(ProjectDir)3rdPartyLibraries\OpenH264\build\lib\Release\$(Platform)\*.dll" "$(TargetDir)" /y /s
+xcopy "$(ProjectDir)3rdPartyLibraries\Live555\build\lib\Release\$(Platform)\*.dll" "$(TargetDir)" /y /s
+xcopy "$(ProjectDir)3rdPartyLibraries\vlc-2.1.5\Release\$(Platform)\plugins"  "$(TargetDir)\plugins\" /y /s</Command>
+    </PostBuildEvent>
+    <PreLinkEvent>
+      <Command>
+      </Command>
+    </PreLinkEvent>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;IS_64_BIT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(ProjectDir)\src\gsoap;$(ProjectDir)resource;$(ProjectDir)\src;$(ProjectDir)3rdPartyLibraries\Live555\BasicUsageEnvironment\include;$(ProjectDir)3rdPartyLibraries\Live555\groupsock\include;$(ProjectDir)3rdPartyLibraries\Live555\UsageEnvironment\include;$(ProjectDir)3rdPartyLibraries\Live555\liveMedia\include;$(ProjectDir)3rdPartyLibraries\OpenH264\codec\api\svc;$(ProjectDir)3rdPartyLibraries\glew-1.11.0\include;$(ProjectDir)3rdPartyLibraries\vlc-2.1.5\sdk\include;$(ProjectDir)3rdPartyLibraries\liblbfgs-1.10\lib;$(ProjectDir)3rdPartyLibraries\liblbfgs-1.10\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <AdditionalOptions>/bigobj /Zm200 %(AdditionalOptions)</AdditionalOptions>
+      <CompileAs>CompileAsCpp</CompileAs>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>glew32.lib;opengl32.lib;gdiplus.lib;libvlc.lib;Live555.lib;OpenH264.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+      <AdditionalLibraryDirectories>$(ProjectDir)3rdPartyLibraries\Live555\build\lib\Release\$(PlatformName)\;$(ProjectDir)3rdPartyLibraries\OpenH264\build\lib\Release\$(PlatformName)\;$(ProjectDir)3rdPartyLibraries\glew-1.11.0\lib\Release\Win32\;$(ProjectDir)3rdPartyLibraries\vlc-2.1.5\sdk\lib\Win32\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy "resource\testImages" "$(TargetDir)\testImages\" /y /s
+xcopy "$(ProjectDir)3rdPartyLibraries\glew-1.11.0\bin\Release\$(Platform)\glew32.dll" "$(TargetDir)" /y /s
+xcopy "$(ProjectDir)3rdPartyLibraries\vlc-2.1.5\Release\$(Platform)\*.dll" "$(TargetDir)" /y /s
+xcopy "$(ProjectDir)3rdPartyLibraries\OpenH264\build\lib\Release\$(Platform)\*.dll" "$(TargetDir)" /y /s
+xcopy "$(ProjectDir)3rdPartyLibraries\Live555\build\lib\Release\$(Platform)\*.dll" "$(TargetDir)" /y /s
+xcopy "$(ProjectDir)3rdPartyLibraries\vlc-2.1.5\Release\$(Platform)\plugins"  "$(TargetDir)\plugins\" /y /s</Command>
+    </PostBuildEvent>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(ProjectDir)src\gsoap;$(ProjectDir)resource;$(ProjectDir)src;$(ProjectDir)3rdPartyLibraries\Live555\BasicUsageEnvironment\include;$(ProjectDir)3rdPartyLibraries\Live555\groupsock\include;$(ProjectDir)3rdPartyLibraries\Live555\UsageEnvironment\include;$(ProjectDir)3rdPartyLibraries\Live555\liveMedia\include;$(ProjectDir)3rdPartyLibraries\OpenH264\codec\api\svc;$(ProjectDir)3rdPartyLibraries\glew-1.11.0\include;$(ProjectDir)3rdPartyLibraries\vlc-2.1.5\sdk\include;$(ProjectDir)3rdPartyLibraries\liblbfgs-1.10\lib;$(ProjectDir)3rdPartyLibraries\liblbfgs-1.10\include</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <AdditionalOptions>/bigobj /Zm200 %(AdditionalOptions)</AdditionalOptions>
+      <CompileAs>CompileAsCpp</CompileAs>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>glew32.lib;opengl32.lib;gdiplus.lib;libvlc.lib;Live555.lib;OpenH264.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+      <AdditionalLibraryDirectories>$(ProjectDir)3rdPartyLibraries\Live555\build\lib\Release\$(PlatformName)\;$(ProjectDir)3rdPartyLibraries\OpenH264\build\lib\Release\$(PlatformName)\;$(ProjectDir)3rdPartyLibraries\glew-1.11.0\lib\Release\x64\;$(ProjectDir)3rdPartyLibraries\vlc-2.1.5\sdk\lib\x64\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy "resource\testImages" "$(TargetDir)\testImages\" /y /s
+xcopy "$(ProjectDir)3rdPartyLibraries\glew-1.11.0\bin\Release\$(Platform)\glew32.dll" "$(TargetDir)" /y /s
+xcopy "$(ProjectDir)3rdPartyLibraries\vlc-2.1.5\Release\$(Platform)\*.dll" "$(TargetDir)" /y /s
+xcopy "$(ProjectDir)3rdPartyLibraries\OpenH264\build\lib\Release\$(Platform)\*.dll" "$(TargetDir)" /y /s
+xcopy "$(ProjectDir)3rdPartyLibraries\Live555\build\lib\Release\$(Platform)\*.dll" "$(TargetDir)" /y /s
+xcopy "$(ProjectDir)3rdPartyLibraries\vlc-2.1.5\Release\$(Platform)\plugins"  "$(TargetDir)\plugins\" /y /s</Command>
+    </PostBuildEvent>
+    <ResourceCompile>
+      <PreprocessorDefinitions>IS_64_BIT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="$(ProjectDir)3rdPartyLibraries\liblbfgs-1.10\include\lbfgs.h" />
+    <ClInclude Include="$(ProjectDir)3rdPartyLibraries\liblbfgs-1.10\lib\arithmetic_ansi.h" />
+    <ClInclude Include="resource\Resource.h" />
+    <ClInclude Include="src\BaseFrameSource.hpp" />
+    <ClInclude Include="src\CameraInfos.hpp" />
+    <ClInclude Include="src\ErrorHandling.hpp" />
+    <ClInclude Include="src\gsoap\device.h" />
+    <ClInclude Include="src\gsoap\duration.h" />
+    <ClInclude Include="src\gsoap\media.h" />
+    <ClInclude Include="src\gsoap\ptz.h" />
+    <ClInclude Include="src\gsoap\soapDeviceBindingProxy.h" />
+    <ClInclude Include="src\gsoap\soapH.h" />
+    <ClInclude Include="src\gsoap\soapMediaBindingProxy.h" />
+    <ClInclude Include="src\gsoap\soapPTZBindingProxy.h" />
+    <ClInclude Include="src\gsoap\soapStub.h" />
+    <ClInclude Include="src\gsoap\stdsoap2.h" />
+    <ClInclude Include="src\MosaicToPanTilt.hpp" />
+    <ClInclude Include="src\MultiThreadFifo.hpp" />
+    <ClInclude Include="src\mycamera.hpp" />
+    <ClInclude Include="src\numeric_calibrate.h" />
+    <ClInclude Include="src\ObjectFilter.hpp" />
+    <ClInclude Include="src\Objects.hpp" />
+    <ClInclude Include="src\OpenH264FrameSource.hpp" />
+    <ClInclude Include="src\PanomersiveViewer.hpp" />
+    <ClInclude Include="src\PerformanceStats.hpp" />
+    <ClInclude Include="src\RtpFrameSource.hpp" />
+    <ClInclude Include="src\SituationControl.hpp" />
+    <ClInclude Include="src\SplitterLayout.hpp" />
+    <ClInclude Include="src\StreamLayoutMetadata.hpp" />
+    <ClInclude Include="src\TcpFetcher.hpp" />
+    <ClInclude Include="src\UserOptions.hpp" />
+    <ClInclude Include="src\VideoWindow.hpp" />
+    <ClInclude Include="src\wgl.hpp" />
+    <ClInclude Include="src\Window.hpp" />
+    <ClInclude Include="src\stdafx.h" />
+    <ClInclude Include="src\targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(ProjectDir)3rdPartyLibraries\liblbfgs-1.10\lib\lbfgs.c" />
+    <ClCompile Include="src\BaseFrameSource.cpp" />
+    <ClCompile Include="src\CameraInfos.cpp" />
+    <ClCompile Include="src\ErrorHandling.cpp" />
+    <ClCompile Include="src\gsoap\duration.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="src\gsoap\soapC.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="src\gsoap\soapDeviceBindingProxy.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="src\gsoap\soapMediaBindingProxy.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="src\gsoap\soapPTZBindingProxy.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="src\gsoap\stdsoap2.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="src\MosaicToPanTilt.cpp" />
+    <ClCompile Include="src\mycamera.cpp" />
+    <ClCompile Include="src\numeric_calibrate.c" />
+    <ClCompile Include="src\ObjectFilter.cpp" />
+    <ClCompile Include="src\Objects.cpp" />
+    <ClCompile Include="src\OpenH264FrameSource.cpp" />
+    <ClCompile Include="src\PanomersiveViewer.cpp" />
+    <ClCompile Include="src\PerformanceStats.cpp" />
+    <ClCompile Include="src\RtpFrameSource.cpp" />
+    <ClCompile Include="src\SituationControl.cpp" />
+    <ClCompile Include="src\StreamLayoutMetadata.cpp" />
+    <ClCompile Include="src\TcpFetcher.cpp" />
+    <ClCompile Include="src\UserOptions.cpp" />
+    <ClCompile Include="src\VideoWindow.cpp" />
+    <ClCompile Include="src\SplitterLayout.cpp" />
+    <ClCompile Include="src\wgl.cpp" />
+    <ClCompile Include="src\Window.cpp" />
+    <ClCompile Include="src\WinMain.cpp" />
+    <ClCompile Include="src\stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resource\PanomersiveViewer.ico" />
+    <Image Include="resource\pelco_logo.bmp" />
+    <Image Include="resource\small.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource\PanomersiveViewer.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="resource\resource." />
+    <None Include="src\gsoap\OnvifBinding.nsmap" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="packages\ImExTk.1.0.4\build\native\ImExTk.targets" Condition="Exists('packages\ImExTk.1.0.4\build\native\ImExTk.targets')" />
+  </ImportGroup>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\ImExTk.1.0.4\build\native\ImExTk.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\ImExTk.1.0.4\build\native\ImExTk.targets'))" />
+  </Target>
+</Project>

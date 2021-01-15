@@ -1,0 +1,643 @@
+﻿  stdafx.cpp
+  BasicHashTable.cpp
+  BasicTaskScheduler.cpp
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\BasicUsageEnvironment\BasicTaskScheduler.cpp(100,31): warning C4244: '=': conversion from 'SOCKET' to 'int', possible loss of data
+  BasicTaskScheduler0.cpp
+  BasicUsageEnvironment.cpp
+  BasicUsageEnvironment0.cpp
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\BasicUsageEnvironment\BasicUsageEnvironment0.cpp(78,5): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\BasicUsageEnvironment\BasicUsageEnvironment0.cpp(91,35): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+  DelayQueue.cpp
+  GroupEId.cpp
+  Groupsock.cpp
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\groupsock\Groupsock.cpp(523,66): warning C4312: 'type cast': conversion from 'long' to 'char *' of greater size
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\groupsock\Groupsock.cpp(525,38): warning C4312: 'type cast': conversion from 'long' to 'char *' of greater size
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\groupsock\Groupsock.cpp(553,43): warning C4312: 'type cast': conversion from 'long' to 'char *' of greater size
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\groupsock\Groupsock.cpp(562,35): warning C4312: 'type cast': conversion from 'long' to 'char *' of greater size
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\groupsock\Groupsock.cpp(545,7): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\groupsock\Groupsock.cpp(557,7): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\groupsock\Groupsock.cpp(575,57): warning C4312: 'type cast': conversion from 'long' to 'char *' of greater size
+  GroupsockHelper.cpp
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\groupsock\GroupsockHelper.cpp(88,16): warning C4244: '=': conversion from 'SOCKET' to 'int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\groupsock\GroupsockHelper.cpp(149,7): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\groupsock\GroupsockHelper.cpp(262,7): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\groupsock\GroupsockHelper.cpp(349,7): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\groupsock\GroupsockHelper.cpp(696,7): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\groupsock\GroupsockHelper.cpp(733,29): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\groupsock\GroupsockHelper.cpp(735,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\groupsock\GroupsockHelper.cpp(785,22): warning C4244: '=': conversion from 'time_t' to 'long', possible loss of data
+  IOHandlers.cpp
+  NetAddress.cpp
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\groupsock\NetAddress.cpp(108,10): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\groupsock\NetAddress.cpp(307,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  NetInterface.cpp
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\groupsock\NetInterface.cpp(141,62): warning C4312: 'type cast': conversion from 'long' to 'char *' of greater size
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\groupsock\NetInterface.cpp(146,44): warning C4312: 'type cast': conversion from 'long' to 'char *' of greater size
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\groupsock\NetInterface.cpp(158,60): warning C4312: 'type cast': conversion from 'long' to 'char *' of greater size
+  Live555.cpp
+  AC3AudioFileServerMediaSubsession.cpp
+  AC3AudioRTPSink.cpp
+  AC3AudioRTPSource.cpp
+  AC3AudioStreamFramer.cpp
+  ADTSAudioFileServerMediaSubsession.cpp
+  ADTSAudioFileSource.cpp
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\ADTSAudioFileSource.cpp(108,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\ADTSAudioFileSource.cpp(150,57): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  AMRAudioFileServerMediaSubsession.cpp
+  Generating Code...
+  Compiling...
+  AMRAudioFileSink.cpp
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\AMRAudioFileSink.cpp(79,49): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\AMRAudioFileSink.cpp(76,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  AMRAudioFileSource.cpp
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\AMRAudioFileSource.cpp(156,47): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+  AMRAudioRTPSink.cpp
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\AMRAudioRTPSink.cpp(130,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  AMRAudioRTPSource.cpp
+  AMRAudioSource.cpp
+  AudioInputDevice.cpp
+  AudioRTPSink.cpp
+  AVIFileSink.cpp
+  Base64.cpp
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\Base64.cpp(43,68): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+  BasicUDPSink.cpp
+  BasicUDPSource.cpp
+  BitVector.cpp
+  ByteStreamFileSource.cpp
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\ByteStreamFileSource.cpp(138,45): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+  ByteStreamMemoryBufferSource.cpp
+  ByteStreamMultiFileSource.cpp
+  DeviceSource.cpp
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\DeviceSource.cpp(125,54): warning C4312: 'type cast': conversion from 'unsigned int' to 'u_int8_t *' of greater size
+  DigestAuthentication.cpp
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\DigestAuthentication.cpp(116,49): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\DigestAuthentication.cpp(116,49): warning C4267: 'initializing': conversion from 'size_t' to 'const unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\DigestAuthentication.cpp(123,60): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\DigestAuthentication.cpp(123,60): warning C4267: 'initializing': conversion from 'size_t' to 'const unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\DigestAuthentication.cpp(130,40): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\DigestAuthentication.cpp(130,40): warning C4267: 'initializing': conversion from 'size_t' to 'const unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\DigestAuthentication.cpp(112,5): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\DigestAuthentication.cpp(118,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\DigestAuthentication.cpp(125,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\DigestAuthentication.cpp(133,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  DVVideoFileServerMediaSubsession.cpp
+  DVVideoRTPSink.cpp
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\DVVideoRTPSink.cpp(89,26): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\DVVideoRTPSink.cpp(92,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  DVVideoRTPSource.cpp
+  Generating Code...
+  Compiling...
+  DVVideoStreamFramer.cpp
+  EBMLNumber.cpp
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\EBMLNumber.cpp(35,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  FileServerMediaSubsession.cpp
+  FileSink.cpp
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\FileSink.cpp(100,7): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\FileSink.cpp(103,7): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  FramedFileSource.cpp
+  FramedFilter.cpp
+  FramedSource.cpp
+  GenericMediaServer.cpp
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\GenericMediaServer.cpp(187,20): warning C4244: 'initializing': conversion from 'SOCKET' to 'int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\GenericMediaServer.cpp(270,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\GenericMediaServer.cpp(321,5): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\GenericMediaServer.cpp(333,3): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  GSMAudioRTPSink.cpp
+  H261VideoRTPSource.cpp
+  H263plusVideoFileServerMediaSubsession.cpp
+  H263plusVideoRTPSink.cpp
+  H263plusVideoRTPSource.cpp
+  H263plusVideoStreamFramer.cpp
+  H263plusVideoStreamParser.cpp
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\H263plusVideoStreamParser.cpp(200,23): warning C4477: 'fprintf' : format string '%u' requires an argument of type 'unsigned int', but variadic argument 2 has type '__int64'
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\H263plusVideoStreamParser.cpp(200,23): message : consider using '%llu' in the format string
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\H263plusVideoStreamParser.cpp(200,23): message : consider using '%Iu' in the format string
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\H263plusVideoStreamParser.cpp(200,23): message : consider using '%I64u' in the format string
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\H263plusVideoStreamParser.cpp(210,9): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+  H264or5VideoFileSink.cpp
+  H264or5VideoRTPSink.cpp
+  H264or5VideoStreamDiscreteFramer.cpp
+  H264or5VideoStreamFramer.cpp
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\MPEGVideoStreamParser.hh(114,40): warning C4244: 'return': conversion from '__int64' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\H264or5VideoStreamFramer.cpp(188,42): warning C4244: 'initializing': conversion from '__int64' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\H264or5VideoStreamFramer.cpp(188,36): warning C4244: 'initializing': conversion from '__int64' to 'const unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\H264or5VideoStreamFramer.cpp(670,41): warning C4018: '<': signed/unsigned mismatch
+  H264VideoFileServerMediaSubsession.cpp
+  Generating Code...
+  Compiling...
+  H264VideoFileSink.cpp
+  H264VideoRTPSink.cpp
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\H264VideoRTPSink.cpp(119,46): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\H264VideoRTPSink.cpp(121,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  H264VideoRTPSource.cpp
+  H264VideoStreamDiscreteFramer.cpp
+  H264VideoStreamFramer.cpp
+  H265VideoFileServerMediaSubsession.cpp
+  H265VideoFileSink.cpp
+  H265VideoRTPSink.cpp
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\H265VideoRTPSink.cpp(164,24): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\H265VideoRTPSink.cpp(138,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\H265VideoRTPSink.cpp(166,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  H265VideoRTPSource.cpp
+  H265VideoStreamDiscreteFramer.cpp
+  H265VideoStreamFramer.cpp
+  InputFile.cpp
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\InputFile.cpp(34,11): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  JPEGVideoRTPSink.cpp
+  JPEGVideoRTPSource.cpp
+  JPEGVideoSource.cpp
+  Locale.cpp
+  MatroskaDemuxedTrack.cpp
+  MatroskaFile.cpp
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\MatroskaFile.cpp(320,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\MatroskaFile.cpp(633,104): warning C4312: 'type cast': conversion from 'unsigned int' to 'const char *' of greater size
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\MatroskaFile.cpp(634,86): warning C4312: 'type cast': conversion from 'unsigned int' to 'const char *' of greater size
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\MatroskaFile.cpp(639,65): warning C4312: 'type cast': conversion from 'unsigned int' to 'const char *' of greater size
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\MatroskaFile.cpp(726,52): warning C4312: 'type cast': conversion from 'unsigned int' to 'const char *' of greater size
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\MatroskaFile.cpp(731,85): warning C4312: 'type cast': conversion from 'unsigned int' to 'const char *' of greater size
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\MatroskaFile.cpp(735,55): warning C4312: 'type cast': conversion from 'unsigned int' to 'const char *' of greater size
+  MatroskaFileParser.cpp
+  MatroskaFileServerDemux.cpp
+  Generating Code...
+  Compiling...
+  MatroskaFileServerMediaSubsession.cpp
+  Media.cpp
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\Media.cpp(154,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  MediaSession.cpp
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\MediaSession.cpp(138,10): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\MediaSession.cpp(140,3): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\MediaSession.cpp(144,17): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\MediaSession.cpp(146,3): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\MediaSession.cpp(148,3): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\MediaSession.cpp(230,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\MediaSession.cpp(281,7): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\MediaSession.cpp(295,7): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\MediaSession.cpp(309,7): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\MediaSession.cpp(337,7): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\MediaSession.cpp(352,7): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\MediaSession.cpp(362,10): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\MediaSession.cpp(369,22): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\MediaSession.cpp(415,9): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\MediaSession.cpp(765,75): warning C4312: 'type cast': conversion from 'unsigned int' to 'const char *' of greater size
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\MediaSession.cpp(787,75): warning C4312: 'type cast': conversion from 'unsigned int' to 'const char *' of greater size
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\MediaSession.cpp(1012,10): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\MediaSession.cpp(1025,7): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\MediaSession.cpp(1028,10): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\MediaSession.cpp(1030,10): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\MediaSession.cpp(1065,7): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\MediaSession.cpp(1114,48): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\MediaSession.cpp(1114,48): warning C4267: 'initializing': conversion from 'size_t' to 'const unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\MediaSession.cpp(1119,26): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\MediaSession.cpp(1156,7): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\MediaSession.cpp(1171,7): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\MediaSession.cpp(1174,14): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\MediaSession.cpp(1360,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\MediaSession.cpp(1407,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\MediaSession.cpp(1441,9): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  MediaSink.cpp
+  MediaSource.cpp
+  MP3ADU.cpp
+  MP3ADUdescriptor.cpp
+  MP3ADUinterleaving.cpp
+  MP3ADURTPSink.cpp
+  MP3ADURTPSource.cpp
+  MP3ADUTranscoder.cpp
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\MP3ADUTranscoder.cpp(56,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  MP3AudioFileServerMediaSubsession.cpp
+  MP3AudioMatroskaFileServerMediaSubsession.cpp
+  MP3FileSource.cpp
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\MP3FileSource.cpp(144,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  MP3Internals.cpp
+  MP3InternalsHuffman.cpp
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\MP3InternalsHuffman.cpp(305,10): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\MP3InternalsHuffman.cpp(353,5): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\MP3InternalsHuffman.cpp(365,5): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\MP3InternalsHuffman.cpp(376,5): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  MP3InternalsHuffmanTable.cpp
+  MP3StreamState.cpp
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\MP3StreamState.cpp(186,3): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\MP3StreamState.cpp(390,41): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+  MP3Transcoder.cpp
+  MPEG1or2AudioRTPSink.cpp
+  Generating Code...
+  Compiling...
+  MPEG1or2AudioRTPSource.cpp
+  MPEG1or2AudioStreamFramer.cpp
+  MPEG1or2Demux.cpp
+  MPEG1or2DemuxedElementaryStream.cpp
+  MPEG1or2DemuxedServerMediaSubsession.cpp
+  MPEG1or2FileServerDemux.cpp
+  MPEG1or2VideoFileServerMediaSubsession.cpp
+  MPEG1or2VideoRTPSink.cpp
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\MPEG1or2VideoRTPSink.cpp(124,28): warning C4312: 'type cast': conversion from 'unsigned int' to 'void *' of greater size
+  MPEG1or2VideoRTPSource.cpp
+  MPEG1or2VideoStreamDiscreteFramer.cpp
+  MPEG1or2VideoStreamFramer.cpp
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\MPEGVideoStreamParser.hh(114,40): warning C4244: 'return': conversion from '__int64' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\MPEG1or2VideoStreamFramer.cpp(205,26): warning C4244: 'initializing': conversion from '__int64' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\MPEG1or2VideoStreamFramer.cpp(463,29): warning C4312: 'type cast': conversion from 'unsigned int' to 'void *' of greater size
+  MPEG2IndexFromTransportStream.cpp
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\MPEG2IndexFromTransportStream.cpp(620,32): warning C4244: '=': conversion from '__int64' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\MPEG2IndexFromTransportStream.cpp(625,28): warning C4244: '=': conversion from '__int64' to 'unsigned int', possible loss of data
+  MPEG2TransportFileServerMediaSubsession.cpp
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\MPEG2TransportFileServerMediaSubsession.cpp(185,64): warning C4312: 'type cast': conversion from 'unsigned int' to 'const char *' of greater size
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\MPEG2TransportFileServerMediaSubsession.cpp(219,94): warning C4312: 'type cast': conversion from 'unsigned int' to 'const char *' of greater size
+  MPEG2TransportStreamFramer.cpp
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\MPEG2TransportStreamFramer.cpp(233,73): warning C4312: 'type cast': conversion from 'unsigned int' to 'char *' of greater size
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\MPEG2TransportStreamFramer.cpp(238,36): warning C4312: 'type cast': conversion from 'unsigned int' to 'char *' of greater size
+  MPEG2TransportStreamFromESSource.cpp
+  MPEG2TransportStreamFromPESSource.cpp
+  MPEG2TransportStreamIndexFile.cpp
+  MPEG2TransportStreamMultiplexor.cpp
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\MPEG2TransportStreamMultiplexor.cpp(266,49): warning C4244: 'argument': conversion from '__int64' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\MPEG2TransportStreamMultiplexor.cpp(312,27): warning C4244: 'initializing': conversion from '__int64' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\MPEG2TransportStreamMultiplexor.cpp(316,49): warning C4244: 'argument': conversion from '__int64' to 'unsigned int', possible loss of data
+  MPEG2TransportStreamTrickModeFilter.cpp
+  MPEG2TransportUDPServerMediaSubsession.cpp
+  Generating Code...
+  Compiling...
+  MPEG4ESVideoRTPSink.cpp
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\MPEG4ESVideoRTPSink.cpp(128,28): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\MPEG4ESVideoRTPSink.cpp(130,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\MPEG4ESVideoRTPSink.cpp(133,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\MPEG4ESVideoRTPSink.cpp(136,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  MPEG4ESVideoRTPSource.cpp
+  MPEG4GenericRTPSink.cpp
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\MPEG4GenericRTPSink.cpp(63,28): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\MPEG4GenericRTPSink.cpp(65,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  MPEG4GenericRTPSource.cpp
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\MPEG4GenericRTPSource.cpp(88,65): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\MPEG4GenericRTPSource.cpp(91,7): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  MPEG4LATMAudioRTPSink.cpp
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\MPEG4LATMAudioRTPSink.cpp(40,37): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\MPEG4LATMAudioRTPSink.cpp(42,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  MPEG4LATMAudioRTPSource.cpp
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\MPEG4LATMAudioRTPSource.cpp(202,51): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\MPEG4LATMAudioRTPSource.cpp(247,41): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+  MPEG4VideoFileServerMediaSubsession.cpp
+  MPEG4VideoStreamDiscreteFramer.cpp
+  MPEG4VideoStreamFramer.cpp
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\MPEGVideoStreamParser.hh(114,40): warning C4244: 'return': conversion from '__int64' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\MPEG4VideoStreamFramer.cpp(432,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\MPEG4VideoStreamFramer.cpp(655,30): warning C4312: 'type cast': conversion from 'u_int32_t' to 'void *' of greater size
+  MPEGVideoStreamFramer.cpp
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\MPEGVideoStreamParser.hh(114,40): warning C4244: 'return': conversion from '__int64' to 'unsigned int', possible loss of data
+  MPEGVideoStreamParser.cpp
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\MPEGVideoStreamParser.hh(114,40): warning C4244: 'return': conversion from '__int64' to 'unsigned int', possible loss of data
+  MultiFramedRTPSink.cpp
+  MultiFramedRTPSource.cpp
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\MultiFramedRTPSource.cpp(461,52): warning C4244: '+=': conversion from '__int64' to 'unsigned int', possible loss of data
+  OggDemuxedTrack.cpp
+  OggFile.cpp
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\OggFile.cpp(194,64): warning C4312: 'type cast': conversion from 'u_int32_t' to 'const char *' of greater size
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\OggFile.cpp(199,60): warning C4312: 'type cast': conversion from 'u_int32_t' to 'const char *' of greater size
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\OggFile.cpp(251,58): warning C4312: 'type cast': conversion from 'u_int32_t' to 'const char *' of greater size
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\OggFile.cpp(259,52): warning C4312: 'type cast': conversion from 'unsigned int' to 'const char *' of greater size
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\OggFile.cpp(264,80): warning C4312: 'type cast': conversion from 'u_int32_t' to 'const char *' of greater size
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\OggFile.cpp(290,55): warning C4312: 'type cast': conversion from 'u_int32_t' to 'const char *' of greater size
+  OggFileParser.cpp
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\OggFileParser.cpp(282,56): warning C4244: 'return': conversion from '__int64' to 'unsigned int', possible loss of data
+  OggFileServerDemux.cpp
+  OggFileServerMediaSubsession.cpp
+  OggFileSink.cpp
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\OggFileSink.cpp(228,56): warning C4334: '<<': result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
+  OnDemandServerMediaSubsession.cpp
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\OnDemandServerMediaSubsession.cpp(203,59): warning C4312: 'type cast': conversion from 'unsigned int' to 'const char *' of greater size
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\OnDemandServerMediaSubsession.cpp(216,82): warning C4312: 'type cast': conversion from 'unsigned int' to 'const char *' of greater size
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\OnDemandServerMediaSubsession.cpp(340,82): warning C4312: 'type cast': conversion from 'unsigned int' to 'const char *' of greater size
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\OnDemandServerMediaSubsession.cpp(342,64): warning C4312: 'type cast': conversion from 'unsigned int' to 'const char *' of greater size
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\OnDemandServerMediaSubsession.cpp(453,24): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\OnDemandServerMediaSubsession.cpp(455,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Generating Code...
+  Compiling...
+  ourMD5.cpp
+  OutputFile.cpp
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\OutputFile.cpp(47,11): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  PassiveServerMediaSubsession.cpp
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\PassiveServerMediaSubsession.cpp(106,26): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\PassiveServerMediaSubsession.cpp(108,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\PassiveServerMediaSubsession.cpp(165,61): warning C4312: 'type cast': conversion from 'unsigned int' to 'const char *' of greater size
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\PassiveServerMediaSubsession.cpp(192,113): warning C4312: 'type cast': conversion from 'unsigned int' to 'const char *' of greater size
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\PassiveServerMediaSubsession.cpp(219,111): warning C4312: 'type cast': conversion from 'unsigned int' to 'const char *' of greater size
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\PassiveServerMediaSubsession.cpp(225,66): warning C4312: 'type cast': conversion from 'unsigned int' to 'const char *' of greater size
+  ProxyServerMediaSession.cpp
+  QCELPAudioRTPSource.cpp
+  QuickTimeFileSink.cpp
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\QuickTimeFileSink.cpp(1239,37): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\QuickTimeFileSink.cpp(2180,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\QuickTimeFileSink.cpp(2205,30): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\QuickTimeFileSink.cpp(2216,42): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\QuickTimeFileSink.cpp(2208,11): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\QuickTimeFileSink.cpp(2214,7): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\QuickTimeFileSink.cpp(2230,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\QuickTimeFileSink.cpp(2320,71): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\QuickTimeFileSink.cpp(2322,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  QuickTimeGenericRTPSource.cpp
+  RTCP.cpp
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTCP.cpp(43,1): warning C4312: 'type cast': conversion from 'long' to 'char *' of greater size
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTCP.cpp(54,1): warning C4312: 'type cast': conversion from 'long' to 'char *' of greater size
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTCP.cpp(54,1): warning C4312: 'type cast': conversion from 'long' to 'void *' of greater size
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTCP.cpp(60,1): warning C4312: 'type cast': conversion from 'long' to 'char *' of greater size
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTCP.cpp(352,5): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTCP.cpp(1177,47): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+  RTPInterface.cpp
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTPInterface.cpp(82,47): warning C4312: 'type cast': conversion from 'long' to 'const char *' of greater size
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTPInterface.cpp(87,46): warning C4312: 'type cast': conversion from 'long' to 'const char *' of greater size
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTPInterface.cpp(101,47): warning C4312: 'type cast': conversion from 'long' to 'const char *' of greater size
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTPInterface.cpp(437,63): warning C4312: 'type cast': conversion from 'long' to 'const char *' of greater size
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTPInterface.cpp(451,61): warning C4312: 'type cast': conversion from 'long' to 'const char *' of greater size
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTPInterface.cpp(460,66): warning C4312: 'type cast': conversion from 'long' to 'const char *' of greater size
+  RTPSink.cpp
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTPSink.cpp(145,58): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTPSink.cpp(138,7): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTPSink.cpp(147,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTPSink.cpp(208,42): warning C4312: 'type cast': conversion from 'long' to 'const char *' of greater size
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTPSink.cpp(232,71): warning C4312: 'type cast': conversion from 'long' to 'const char *' of greater size
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTPSink.cpp(237,37): warning C4312: 'type cast': conversion from 'long' to 'const char *' of greater size
+  RTPSource.cpp
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTPSource.cpp(147,42): warning C4312: 'type cast': conversion from 'long' to 'const char *' of greater size
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTPSource.cpp(178,68): warning C4312: 'type cast': conversion from 'long' to 'const char *' of greater size
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTPSource.cpp(183,37): warning C4312: 'type cast': conversion from 'long' to 'const char *' of greater size
+  RTSPClient.cpp
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPClient.cpp(134,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPClient.cpp(148,80): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPClient.cpp(153,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPClient.cpp(235,36): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPClient.cpp(280,23): warning C4244: 'initializing': conversion from '__int64' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPClient.cpp(286,23): warning C4244: 'initializing': conversion from '__int64' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPClient.cpp(323,11): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPClient.cpp(349,72): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPClient.cpp(349,72): warning C4267: 'initializing': conversion from 'size_t' to 'const unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPClient.cpp(353,55): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPClient.cpp(352,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPClient.cpp(391,116): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPClient.cpp(394,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPClient.cpp(481,48): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPClient.cpp(486,24): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPClient.cpp(510,22): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPClient.cpp(531,46): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPClient.cpp(536,8): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPClient.cpp(538,81): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPClient.cpp(538,81): warning C4267: 'initializing': conversion from 'size_t' to 'const unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPClient.cpp(488,7): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPClient.cpp(512,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPClient.cpp(540,7): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPClient.cpp(571,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPClient.cpp(585,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPClient.cpp(598,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPClient.cpp(612,7): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPClient.cpp(615,7): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPClient.cpp(626,7): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPClient.cpp(630,7): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPClient.cpp(700,98): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPClient.cpp(754,26): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPClient.cpp(771,26): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPClient.cpp(672,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPClient.cpp(702,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPClient.cpp(715,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPClient.cpp(757,7): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPClient.cpp(774,7): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPClient.cpp(799,7): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPClient.cpp(815,7): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPClient.cpp(920,57): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPClient.cpp(929,94): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPClient.cpp(934,74): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPClient.cpp(934,74): warning C4267: 'initializing': conversion from 'size_t' to 'const unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPClient.cpp(922,7): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPClient.cpp(931,7): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPClient.cpp(936,7): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPClient.cpp(962,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPClient.cpp(984,7): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPClient.cpp(985,7): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPClient.cpp(1020,53): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPClient.cpp(1018,5): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPClient.cpp(1059,10): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPClient.cpp(1060,9): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPClient.cpp(1062,16): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPClient.cpp(1067,16): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPClient.cpp(1076,16): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPClient.cpp(1077,9): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPClient.cpp(1117,10): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPClient.cpp(1122,10): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPClient.cpp(1133,10): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPClient.cpp(1134,9): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPClient.cpp(1136,16): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPClient.cpp(1157,37): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPClient.cpp(1167,9): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPClient.cpp(1294,56): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPClient.cpp(1314,51): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPClient.cpp(1338,7): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPClient.cpp(1342,14): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPClient.cpp(1345,14): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPClient.cpp(1432,40): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPClient.cpp(1742,27): warning C4244: 'initializing': conversion from '__int64' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPClient.cpp(1769,80): warning C4244: '=': conversion from '__int64' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPClient.cpp(1654,7): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPClient.cpp(1685,8): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPClient.cpp(1709,8): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPClient.cpp(1751,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  RTSPCommon.cpp
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPCommon.cpp(203,11): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPCommon.cpp(221,7): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPCommon.cpp(224,14): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPCommon.cpp(233,14): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPCommon.cpp(236,14): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPCommon.cpp(239,14): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPCommon.cpp(246,24): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPCommon.cpp(257,14): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPCommon.cpp(296,7): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPCommon.cpp(312,56): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPCommon.cpp(312,56): warning C4267: 'initializing': conversion from 'size_t' to 'const unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPCommon.cpp(341,68): warning C4996: 'gmtime': This function or variable may be unsafe. Consider using gmtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  RTSPRegisterSender.cpp
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPRegisterSender.cpp(53,114): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPRegisterSender.cpp(55,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPRegisterSender.cpp(87,46): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPRegisterSender.cpp(93,121): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPRegisterSender.cpp(89,7): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPRegisterSender.cpp(95,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  RTSPServer.cpp
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPServer.cpp(147,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPServer.cpp(169,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPServer.cpp(171,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPServer.cpp(299,84): warning C4312: 'type cast': conversion from 'int' to 'const char *' of greater size
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPServer.cpp(302,52): warning C4312: 'type cast': conversion from 'int' to 'const char *' of greater size
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPServer.cpp(309,84): warning C4312: 'type cast': conversion from 'int' to 'const char *' of greater size
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPServer.cpp(330,59): warning C4312: 'type cast': conversion from 'int' to 'const char *' of greater size
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPServer.cpp(333,56): warning C4312: 'type cast': conversion from 'int' to 'const char *' of greater size
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPServer.cpp(346,84): warning C4312: 'type cast': conversion from 'int' to 'const char *' of greater size
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPServer.cpp(360,57): warning C4312: 'type cast': conversion from 'int' to 'const char *' of greater size
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPServer.cpp(401,3): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPServer.cpp(461,57): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPServer.cpp(432,7): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPServer.cpp(433,7): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPServer.cpp(435,5): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPServer.cpp(467,5): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPServer.cpp(495,46): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPServer.cpp(540,3): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPServer.cpp(546,3): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPServer.cpp(617,3): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPServer.cpp(623,3): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPServer.cpp(633,3): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPServer.cpp(657,3): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPServer.cpp(761,10): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPServer.cpp(876,88): warning C4244: 'argument': conversion from '__int64' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPServer.cpp(1018,27): warning C4244: 'initializing': conversion from '__int64' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPServer.cpp(1041,94): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPServer.cpp(1051,26): warning C4244: 'initializing': conversion from '__int64' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPServer.cpp(936,6): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPServer.cpp(937,6): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPServer.cpp(939,4): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPServer.cpp(967,6): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPServer.cpp(1092,9): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPServer.cpp(1093,2): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPServer.cpp(1185,3): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPServer.cpp(1198,3): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPServer.cpp(1209,3): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPServer.cpp(1223,49): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPServer.cpp(1223,49): warning C4267: 'initializing': conversion from 'size_t' to 'const unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPServer.cpp(1225,3): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPServer.cpp(1241,49): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPServer.cpp(1241,49): warning C4267: 'initializing': conversion from 'size_t' to 'const unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPServer.cpp(1243,3): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPServer.cpp(1381,10): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPServer.cpp(1391,16): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPServer.cpp(1393,16): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPServer.cpp(1396,16): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPServer.cpp(1399,16): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPServer.cpp(1444,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPServer.cpp(1609,7): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPServer.cpp(1616,6): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPServer.cpp(1634,6): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPServer.cpp(1650,6): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPServer.cpp(1666,8): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPServer.cpp(1680,6): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPServer.cpp(1734,58): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPServer.cpp(1734,58): warning C4267: 'initializing': conversion from 'size_t' to 'const unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPServer.cpp(1795,41): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPServer.cpp(1858,47): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPServer.cpp(1961,57): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPServer.cpp(1976,42): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPServer.cpp(1813,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPServer.cpp(1908,7): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPServer.cpp(1910,7): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPServer.cpp(1934,7): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPServer.cpp(1936,7): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPServer.cpp(1963,7): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPServer.cpp(1983,3): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPServer.cpp(2078,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPServer.cpp(2109,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  RTSPServerSupportingHTTPStreaming.cpp
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPServerSupportingHTTPStreaming.cpp(72,79): warning C4996: 'gmtime': This function or variable may be unsafe. Consider using gmtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPServerSupportingHTTPStreaming.cpp(145,96): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPServerSupportingHTTPStreaming.cpp(189,82): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPServerSupportingHTTPStreaming.cpp(189,82): warning C4267: 'initializing': conversion from 'size_t' to 'const unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPServerSupportingHTTPStreaming.cpp(194,130): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPServerSupportingHTTPStreaming.cpp(194,130): warning C4267: 'initializing': conversion from 'size_t' to 'const unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPServerSupportingHTTPStreaming.cpp(198,70): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPServerSupportingHTTPStreaming.cpp(198,70): warning C4267: 'initializing': conversion from 'size_t' to 'const unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPServerSupportingHTTPStreaming.cpp(226,24): warning C4244: 'initializing': conversion from '__int64' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPServerSupportingHTTPStreaming.cpp(243,92): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPServerSupportingHTTPStreaming.cpp(87,9): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPServerSupportingHTTPStreaming.cpp(132,7): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPServerSupportingHTTPStreaming.cpp(210,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPServerSupportingHTTPStreaming.cpp(217,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPServerSupportingHTTPStreaming.cpp(224,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\RTSPServerSupportingHTTPStreaming.cpp(229,3): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  ServerMediaSession.cpp
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\ServerMediaSession.cpp(74,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\ServerMediaSession.cpp(209,57): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\ServerMediaSession.cpp(217,88): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\ServerMediaSession.cpp(217,88): warning C4267: 'initializing': conversion from 'size_t' to 'const unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\ServerMediaSession.cpp(238,36): warning C4267: '+=': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\ServerMediaSession.cpp(277,30): warning C4267: '+=': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\ServerMediaSession.cpp(300,49): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\ServerMediaSession.cpp(220,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\ServerMediaSession.cpp(248,7): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\ServerMediaSession.cpp(283,5): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\ServerMediaSession.cpp(306,29): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\ServerMediaSession.cpp(357,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\ServerMediaSession.cpp(430,7): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\ServerMediaSession.cpp(432,7): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\ServerMediaSession.cpp(449,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  SimpleRTPSink.cpp
+  SimpleRTPSource.cpp
+  SIPClient.cpp
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\SIPClient.cpp(46,72): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\SIPClient.cpp(46,72): warning C4267: 'initializing': conversion from 'size_t' to 'const unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\SIPClient.cpp(50,55): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\SIPClient.cpp(49,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\SIPClient.cpp(69,42): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\SIPClient.cpp(73,50): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\SIPClient.cpp(78,46): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\SIPClient.cpp(117,113): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\SIPClient.cpp(120,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\SIPClient.cpp(144,36): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\SIPClient.cpp(191,26): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\SIPClient.cpp(216,43): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\SIPClient.cpp(220,42): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\SIPClient.cpp(239,23): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\SIPClient.cpp(248,59): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\SIPClient.cpp(276,22): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\SIPClient.cpp(290,40): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\SIPClient.cpp(218,7): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\SIPClient.cpp(242,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\SIPClient.cpp(278,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\SIPClient.cpp(537,35): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\SIPClient.cpp(563,29): warning C4244: 'initializing': conversion from '__int64' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\SIPClient.cpp(504,8): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\SIPClient.cpp(507,8): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\SIPClient.cpp(535,11): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\SIPClient.cpp(541,11): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\SIPClient.cpp(542,14): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\SIPClient.cpp(619,36): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\SIPClient.cpp(662,11): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\SIPClient.cpp(672,8): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\SIPClient.cpp(664,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\SIPClient.cpp(704,11): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\SIPClient.cpp(714,8): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\SIPClient.cpp(706,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\SIPClient.cpp(806,11): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\SIPClient.cpp(875,72): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\SIPClient.cpp(877,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\SIPClient.cpp(951,7): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Generating Code...
+  Compiling...
+  StreamParser.cpp
+  StreamReplicator.cpp
+  T140TextRTPSink.cpp
+  TCPStreamSink.cpp
+  TextRTPSink.cpp
+  TheoraVideoRTPSink.cpp
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\TheoraVideoRTPSink.cpp(103,66): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\TheoraVideoRTPSink.cpp(105,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  TheoraVideoRTPSource.cpp
+  uLawAudioFilter.cpp
+  VideoRTPSink.cpp
+  VorbisAudioRTPSink.cpp
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\VorbisAudioRTPSink.cpp(112,65): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\VorbisAudioRTPSink.cpp(114,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  VorbisAudioRTPSource.cpp
+  VP8VideoRTPSink.cpp
+  VP8VideoRTPSource.cpp
+  VP9VideoRTPSink.cpp
+  VP9VideoRTPSource.cpp
+  WAVAudioFileServerMediaSubsession.cpp
+  WAVAudioFileSource.cpp
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\WAVAudioFileSource.cpp(152,7): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\liveMedia\WAVAudioFileSource.cpp(276,52): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+  HashTable.cpp
+  strDup.cpp
+  UsageEnvironment.cpp
+  Generating Code...
+  dllmain.cpp
+  inet.c
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\groupsock\inet.c(18,9): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\groupsock\inet.c(278,53): warning C4244: '=': conversion from '__int64' to 'long', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\groupsock\inet.c(313,51): warning C4244: '=': conversion from '__int64' to 'long', possible loss of data
+C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\groupsock\inet.c(344,53): warning C4244: '=': conversion from '__int64' to 'long', possible loss of data
+  rtcp_from_spec.c
+  Generating Code...
+BasicHashTable.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:ICF' specification
+     Creating library build\lib\Debug\x64\Live555.lib and object build\lib\Debug\x64\Live555.exp
+  Live555.vcxproj -> C:\Git\ImmersiveSDK\ImmersiveExperienceToolkit\3rdPartyLibraries\Live555\build\lib\Debug\x64\Live555.dll

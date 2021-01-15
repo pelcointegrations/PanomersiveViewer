@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{82463A8B-6B98-4639-8D0F-7A2CD82D017D}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>OpenH264</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>build\lib\$(Configuration)\$(Platform)\</OutDir>
+    <IntDir>build\obj\$(Configuration)\$(Platform)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>build\lib\$(Configuration)\$(Platform)\</OutDir>
+    <IntDir>build\obj\$(Configuration)\$(Platform)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>build\lib\$(Configuration)\$(Platform)\</OutDir>
+    <IntDir>build\obj\$(Configuration)\$(Platform)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>build\lib\$(Configuration)\$(Platform)\</OutDir>
+    <IntDir>build\obj\$(Configuration)\$(Platform)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;OPENH264_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)codec\common\inc;$(ProjectDir)codec\processing\src\common;$(ProjectDir)codec\processing\interface;$(ProjevctDir)codec\api\svc;$(ProjectDir)codec\decoder\plus\inc;$(ProjectDir)codec\decoder\core\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;OPENH264_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)codec\common\inc;$(ProjectDir)codec\processing\src\common;$(ProjectDir)codec\processing\interface;$(ProjevctDir)codec\api\svc;$(ProjectDir)codec\decoder\plus\inc;$(ProjectDir)codec\decoder\core\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalOptions> /IMPLIB:"build\lib\Debug\x64\OpenH264.lib" %(AdditionalOptions)</AdditionalOptions>
+      <GenerateMapFile>true</GenerateMapFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;OPENH264_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)codec\common\inc;$(ProjectDir)codec\processing\src\common;$(ProjectDir)codec\processing\interface;$(ProjevctDir)codec\api\svc;$(ProjectDir)codec\decoder\plus\inc;$(ProjectDir)codec\decoder\core\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;OPENH264_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)codec\common\inc;$(ProjectDir)codec\processing\src\common;$(ProjectDir)codec\processing\interface;$(ProjevctDir)codec\api\svc;$(ProjectDir)codec\decoder\plus\inc;$(ProjectDir)codec\decoder\core\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="codec\api\svc\codec_api.h" />
+    <ClInclude Include="codec\api\svc\codec_app_def.h" />
+    <ClInclude Include="codec\api\svc\codec_def.h" />
+    <ClInclude Include="codec\api\svc\codec_ver.h" />
+    <ClInclude Include="codec\common\inc\copy_mb.h" />
+    <ClInclude Include="codec\common\inc\cpu.h" />
+    <ClInclude Include="codec\common\inc\cpu_core.h" />
+    <ClInclude Include="codec\common\inc\crt_util_safe_x.h" />
+    <ClInclude Include="codec\common\inc\deblocking_common.h" />
+    <ClInclude Include="codec\common\inc\expand_pic.h" />
+    <ClInclude Include="codec\common\inc\golomb_common.h" />
+    <ClInclude Include="codec\common\inc\intra_pred_common.h" />
+    <ClInclude Include="codec\common\inc\ls_defines.h" />
+    <ClInclude Include="codec\common\inc\macros.h" />
+    <ClInclude Include="codec\common\inc\mc.h" />
+    <ClInclude Include="codec\common\inc\measure_time.h" />
+    <ClInclude Include="codec\common\inc\memory_align.h" />
+    <ClInclude Include="codec\common\inc\sad_common.h" />
+    <ClInclude Include="codec\common\inc\typedefs.h" />
+    <ClInclude Include="codec\common\inc\utils.h" />
+    <ClInclude Include="codec\common\inc\version.h" />
+    <ClInclude Include="codec\common\inc\version_gen.h" />
+    <ClInclude Include="codec\common\inc\welsCodecTrace.h" />
+    <ClInclude Include="codec\common\inc\WelsThreadLib.h" />
+    <ClInclude Include="codec\common\inc\wels_common_defs.h" />
+    <ClInclude Include="codec\common\inc\wels_const_common.h" />
+    <ClInclude Include="codec\decoder\core\inc\au_parser.h" />
+    <ClInclude Include="codec\decoder\core\inc\bit_stream.h" />
+    <ClInclude Include="codec\decoder\core\inc\cabac_decoder.h" />
+    <ClInclude Include="codec\decoder\core\inc\deblocking.h" />
+    <ClInclude Include="codec\decoder\core\inc\decoder.h" />
+    <ClInclude Include="codec\decoder\core\inc\decoder_context.h" />
+    <ClInclude Include="codec\decoder\core\inc\decoder_core.h" />
+    <ClInclude Include="codec\decoder\core\inc\decode_mb_aux.h" />
+    <ClInclude Include="codec\decoder\core\inc\decode_slice.h" />
+    <ClInclude Include="codec\decoder\core\inc\dec_frame.h" />
+    <ClInclude Include="codec\decoder\core\inc\dec_golomb.h" />
+    <ClInclude Include="codec\decoder\core\inc\error_code.h" />
+    <ClInclude Include="codec\decoder\core\inc\error_concealment.h" />
+    <ClInclude Include="codec\decoder\core\inc\fmo.h" />
+    <ClInclude Include="codec\decoder\core\inc\get_intra_predictor.h" />
+    <ClInclude Include="codec\decoder\core\inc\manage_dec_ref.h" />
+    <ClInclude Include="codec\decoder\core\inc\mb_cache.h" />
+    <ClInclude Include="codec\decoder\core\inc\memmgr_nal_unit.h" />
+    <ClInclude Include="codec\decoder\core\inc\mv_pred.h" />
+    <ClInclude Include="codec\decoder\core\inc\nalu.h" />
+    <ClInclude Include="codec\decoder\core\inc\nal_prefix.h" />
+    <ClInclude Include="codec\decoder\core\inc\parameter_sets.h" />
+    <ClInclude Include="codec\decoder\core\inc\parse_mb_syn_cabac.h" />
+    <ClInclude Include="codec\decoder\core\inc\parse_mb_syn_cavlc.h" />
+    <ClInclude Include="codec\decoder\core\inc\picture.h" />
+    <ClInclude Include="codec\decoder\core\inc\pic_queue.h" />
+    <ClInclude Include="codec\decoder\core\inc\rec_mb.h" />
+    <ClInclude Include="codec\decoder\core\inc\slice.h" />
+    <ClInclude Include="codec\decoder\core\inc\vlc_decoder.h" />
+    <ClInclude Include="codec\decoder\core\inc\wels_common_basis.h" />
+    <ClInclude Include="codec\decoder\core\inc\wels_const.h" />
+    <ClInclude Include="codec\processing\src\adaptivequantization\AdaptiveQuantization.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="codec\common\src\common_tables.cpp" />
+    <ClCompile Include="codec\common\src\copy_mb.cpp" />
+    <ClCompile Include="codec\common\src\cpu.cpp" />
+    <ClCompile Include="codec\common\src\crt_util_safe_x.cpp" />
+    <ClCompile Include="codec\common\src\deblocking_common.cpp" />
+    <ClCompile Include="codec\common\src\expand_pic.cpp" />
+    <ClCompile Include="codec\common\src\intra_pred_common.cpp" />
+    <ClCompile Include="codec\common\src\mc.cpp" />
+    <ClCompile Include="codec\common\src\memory_align.cpp" />
+    <ClCompile Include="codec\common\src\sad_common.cpp" />
+    <ClCompile Include="codec\common\src\utils.cpp" />
+    <ClCompile Include="codec\common\src\welsCodecTrace.cpp" />
+    <ClCompile Include="codec\common\src\WelsThreadLib.cpp" />
+    <ClCompile Include="codec\decoder\core\src\au_parser.cpp" />
+    <ClCompile Include="codec\decoder\core\src\bit_stream.cpp" />
+    <ClCompile Include="codec\decoder\core\src\cabac_decoder.cpp" />
+    <ClCompile Include="codec\decoder\core\src\deblocking.cpp" />
+    <ClCompile Include="codec\decoder\core\src\decoder.cpp" />
+    <ClCompile Include="codec\decoder\core\src\decoder_core.cpp" />
+    <ClCompile Include="codec\decoder\core\src\decoder_data_tables.cpp" />
+    <ClCompile Include="codec\decoder\core\src\decode_mb_aux.cpp" />
+    <ClCompile Include="codec\decoder\core\src\decode_slice.cpp" />
+    <ClCompile Include="codec\decoder\core\src\error_concealment.cpp" />
+    <ClCompile Include="codec\decoder\core\src\fmo.cpp" />
+    <ClCompile Include="codec\decoder\core\src\get_intra_predictor.cpp" />
+    <ClCompile Include="codec\decoder\core\src\manage_dec_ref.cpp" />
+    <ClCompile Include="codec\decoder\core\src\memmgr_nal_unit.cpp" />
+    <ClCompile Include="codec\decoder\core\src\mv_pred.cpp" />
+    <ClCompile Include="codec\decoder\core\src\parse_mb_syn_cabac.cpp" />
+    <ClCompile Include="codec\decoder\core\src\parse_mb_syn_cavlc.cpp" />
+    <ClCompile Include="codec\decoder\core\src\pic_queue.cpp" />
+    <ClCompile Include="codec\decoder\core\src\rec_mb.cpp" />
+    <ClCompile Include="codec\decoder\plus\src\welsDecoderExt.cpp" />
+    <ClCompile Include="codec\processing\src\adaptivequantization\AdaptiveQuantization.cpp" />
+    <ClCompile Include="dllmain.cpp">
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</CompileAsManaged>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</CompileAsManaged>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </PrecompiledHeader>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</CompileAsManaged>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</CompileAsManaged>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="OpenH264.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="codec\common\x86\asm_inc.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">nasm  -o  "$(IntDir)\%(Filename).obj" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">nasm  -o  "$(IntDir)\%(Filename).obj" "%(FullPath)"</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)\asm_inc.obj;%(Outputs)</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)\asm_inc.obj;%(Outputs)</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="codec\common\inc\version_gen.h.template" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
